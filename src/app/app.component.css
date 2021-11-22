@@ -1,0 +1,96 @@
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.paraTag {
+    margin-top: 10px;
+}
+
+.toDoSpace {
+    height: 100%;
+    width: 100%;
+}
+
+.toDoAddingSpace {
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.toDoAddingSpace h3 {
+    color: white;
+    text-align: end;
+}
+.toDoAddingSpace hr {
+    width: 300px;
+    color: black;
+    border: black 1px solid;
+}
+
+.toDoAddingSpace input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.toDoAddingSpace button {
+    width: 70px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: -10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.listingSpace {
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.remove {
+    height: 36px;
+    width: 36px;
+    border: none;
+    outline: none;
+    background-image: url('./../assets/close-button.png');
+    background-repeat: no-repeat;
+}
+
+.listingSpace.done .toDoName {
+    width: 200px;
+    padding: 10px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 10px;
+    word-wrap: break-word;
+    text-decoration: line-through solid 2px;
+    border: yellowgreen 5px solid;
+    background-color: rgb(191, 223, 128);
+}
+
+.listingSpace.Notdone .toDoName {
+    width: 200px;
+    padding: 10px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 10px;
+    word-wrap: break-word;
+    border: rgb(224, 38, 54) 5px solid;
+}
+
+.toDoName {
+    margin: 10px;
+}
